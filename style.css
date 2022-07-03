@@ -1,0 +1,20 @@
+body {
+    background-image: url(./images/covimg.jpg);
+    color: white !important;
+}
+
+table, label, select, input, div, .dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+    font-size: 18px;
+    padding: 2.5px 5px;
+}
+
+.dataTables_wrapper {
+    background-color: rgb(0, 0, 0, .6);
+    
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 50px;
+}
