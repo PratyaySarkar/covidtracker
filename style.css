@@ -5,7 +5,7 @@ body {
 
 table, label, select, input, div, .dataTables_wrapper .dataTables_paginate .paginate_button {
     color: white !important;
-    font-size: 18px;
+    font-size: 16px;
     padding: 2.5px 5px;
 }
 
@@ -15,6 +15,12 @@ table, label, select, input, div, .dataTables_wrapper .dataTables_paginate .pagi
 }
 
 h1 {
-    margin: 10px 0;
-    font-size: 50px;
+    margin: 0 0 8px 0 !important;
+    font-size: 45px;
 }
+
+@media (max-width: 1000px) {
+    table, label, select, input, div, .dataTables_wrapper .dataTables_paginate .paginate_button {
+        font-size: 11px;
+    }
+  }
