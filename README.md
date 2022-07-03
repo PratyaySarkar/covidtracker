@@ -1,1 +1,1 @@
-# covidtracker
+# https://pratyaysarkar.github.io/covtrack/
