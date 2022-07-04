@@ -1,22 +1,14 @@
-$.ajax({
-    type: "GET",
-    url: "https://api.covid19api.com/summary",
-    success: function (res) {
-        console.log(res);
-        var data = res.Countries.map(function(dat) {
-            $('#tbody').append(`<tr>
-            <td>${dat.Country}</td>
-            <td>${dat.TotalConfirmed}</td>
-            <td>${dat.TotalDeaths}</td>
-            <td>${dat.NewConfirmed}</td>
-            <td>${dat.NewDeaths}</td>
-            </tr>`);
-        })
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://youtube-to-mp4.p.rapidapi.com/url=&title?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D115amzVdV44",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Key": "e64dcfbb5bmshe24852b4e925a16p1783f2jsn9bb53723b237",
+		"X-RapidAPI-Host": "youtube-to-mp4.p.rapidapi.com"
+	}
+};
 
-        $('#covidtable').DataTable();
-        
-    },
-    error: function (err) {
-        console.log(err);
-    }
+$.ajax(settings).done(function (response) {
+	console.log(response);
 });
