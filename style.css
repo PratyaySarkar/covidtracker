@@ -1,0 +1,40 @@
+body {
+    background-image: url(./images/covimg.jpg);
+    color: white !important;
+}
+
+table,
+label,
+select,
+input,
+div,
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+    font-size: 16px;
+    padding: 2.5px 5px;
+}
+
+.dataTables_wrapper {
+    background-color: rgb(0, 0, 0, .6);
+
+}
+
+h1 {
+    margin: 0 0 8px 0 !important;
+    font-size: 45px;
+}
+
+@media (max-width: 1000px) {
+
+    table,
+    label,
+    select,
+    input,
+    div,
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        font-size: 8px;
+        padding: 2.5px 0;
+    }
+
+
+}
